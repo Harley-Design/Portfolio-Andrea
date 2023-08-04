@@ -1,23 +1,43 @@
 .hero {
-  background: black;
+  background: rgb(30, 30, 30);
   color: white;
   text-align: center;
   padding: 60px;
 }
 
 .navbar-brand {
-  font-size: 28px;
-  font-family: "Smooch", cursive;
+  font-size: 26px;
+  font-family: "Mr Dafoe", cursive;
   color: rgb(66, 66, 66);
 }
 
 .navbar-nav {
+  font-size: 15px;
   font-family: "Quicksand", sans-serif;
 }
 
 .content {
   text-align: center;
   font-family: "Quicksand", sans-serif;
+  margin: 60px;
+}
+
+.copyright {
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  margin: 5px 15px 5px 10px;
+}
+
+.fa-brands {
+  margin: 0 5px;
+}
+.round {
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.col {
+  padding: 0 40px;
 }
 
 h1 {
@@ -28,13 +48,36 @@ h1 {
 h2 {
   font-size: 120px;
   font-family: "DM Serif Display", serif;
+  padding-top: 60px;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: right;
 }
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 18px;
+    font-size: 16px;
   }
   h2 {
-    font-size: 88px;
+    font-size: 80px;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: left;
+  }
+
+  .round {
+    display: none;
   }
 }
