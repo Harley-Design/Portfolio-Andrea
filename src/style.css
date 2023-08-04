@@ -2,7 +2,7 @@
   background: rgb(30, 30, 30);
   color: white;
   text-align: center;
-  padding: 60px;
+  padding: 50px;
 }
 
 .navbar-brand {
@@ -19,7 +19,8 @@
 .content {
   text-align: center;
   font-family: "Quicksand", sans-serif;
-  margin: 60px;
+
+  padding: 50px;
 }
 
 .copyright {
@@ -31,14 +32,11 @@
 .fa-brands {
   margin: 0 5px;
   color: white;
+  text-decoration: none;
 }
 .round {
   border: 3px solid black;
   border-radius: 50%;
-}
-
-.col {
-  padding: 0 40px;
 }
 
 .btn-dark {
@@ -76,7 +74,7 @@ footer {
     font-size: 16px;
   }
   h2 {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   h1,
