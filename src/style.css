@@ -1,4 +1,40 @@
-body {
+.hero {
   background: black;
   color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-family: "Smooch", cursive;
+  color: rgb(66, 66, 66);
+}
+
+.navbar-nav {
+  font-family: "Quicksand", sans-serif;
+}
+
+.content {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-size: 26px;
+  font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+  font-size: 120px;
+  font-family: "DM Serif Display", serif;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 88px;
+  }
 }
