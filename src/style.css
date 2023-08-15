@@ -52,6 +52,10 @@ h1 {
   font-family: "Quicksand", sans-serif;
 }
 
+small {
+  font-size: 18px;
+}
+
 h2 {
   font-size: 120px;
   font-family: "DM Serif Display", serif;
@@ -91,6 +95,10 @@ a:hover {
   h3,
   p {
     text-align: left;
+  }
+
+  small {
+    font-size: 12px;
   }
 
   .round {
