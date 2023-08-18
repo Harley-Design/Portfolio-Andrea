@@ -175,4 +175,5 @@ a:hover {
 #portrait img:hover {
   filter: none;
   transition: filter 1s;
+  transform: scale(1.8);
 }
