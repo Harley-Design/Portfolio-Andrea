@@ -113,7 +113,7 @@ a:hover {
   }
 }
 
-#gallery {
+.gallery {
   line-height: 0;
   -webkit-column-count: 5;
   -webkit-column-gap: 5px;
@@ -123,7 +123,7 @@ a:hover {
   column-gap: 5px;
 }
 
-#gallery img {
+.gallery img {
   width: 100% !important;
   height: auto !important;
   margin-bottom: 5px;
@@ -132,7 +132,7 @@ a:hover {
 }
 
 @media (max-width: 1200px) {
-  #gallery {
+  .gallery {
     -moz-column-count: 4;
     -webkit-column-count: 4;
     column-count: 4;
@@ -140,7 +140,7 @@ a:hover {
 }
 
 @media (max-width: 1000px) {
-  #gallery {
+  .gallery {
     -moz-column-count: 3;
     -webkit-column-count: 3;
     column-count: 3;
@@ -148,7 +148,7 @@ a:hover {
 }
 
 @media (max-width: 800px) {
-  #gallery {
+  .gallery {
     -moz-column-count: 2;
     -webkit-column-count: 2;
     column-count: 2;
@@ -156,23 +156,23 @@ a:hover {
 }
 
 @media (max-width: 400px) {
-  #gallery {
+  .gallery {
     -moz-column-count: 1;
     -webkit-column-count: 1;
     column-count: 1;
   }
 }
 
-#gallery img:hover {
+.gallery img:hover {
   filter: none;
   transition: filter 1s;
 }
 
-#portrait img {
+.portrait img {
   filter: grayscale(100%);
 }
 
-#portrait img:hover {
+.portrait img:hover {
   filter: none;
   transition: filter 1s;
   transform: scale(1.8);
