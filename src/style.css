@@ -16,6 +16,10 @@
   font-family: "Quicksand", sans-serif;
 }
 
+.active {
+  font-weight: 900;
+}
+
 .content {
   text-align: center;
   font-family: "Quicksand", sans-serif;
@@ -111,20 +115,20 @@ a:hover {
 
 #gallery {
   line-height: 0;
-  -webkit-column-count: 5; /* split it into 5 columns */
-  -webkit-column-gap: 5px; /* give it a 5px gap between columns */
+  -webkit-column-count: 5;
+  -webkit-column-gap: 5px;
   -moz-column-count: 5;
   -moz-column-gap: 5px;
   column-count: 5;
   column-gap: 5px;
-  filter: grayscale(100%);
 }
 
 #gallery img {
   width: 100% !important;
   height: auto !important;
-  margin-bottom: 5px; /* to match column gap */
+  margin-bottom: 5px;
   border-radius: 5px;
+  filter: grayscale(100%);
 }
 
 @media (max-width: 1200px) {
@@ -161,5 +165,5 @@ a:hover {
 
 #gallery img:hover {
   filter: none;
-  transition: filter 2s;
+  transition: filter 1s;
 }
