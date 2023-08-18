@@ -167,3 +167,12 @@ a:hover {
   filter: none;
   transition: filter 1s;
 }
+
+#portrait img {
+  filter: grayscale(100%);
+}
+
+#portrait img:hover {
+  filter: none;
+  transition: filter 1s;
+}
