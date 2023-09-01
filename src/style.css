@@ -163,17 +163,22 @@ a:hover {
   }
 }
 
-.gallery img:hover {
-  filter: none;
-  transition: filter 1s;
-}
-
 .portrait img {
   filter: grayscale(100%);
 }
 
 .portrait img:hover {
   filter: none;
-  transition: filter 1s;
+  transition: filter 0.5s;
   transform: scale(1.8);
+}
+
+.gallery img:hover {
+  filter: none;
+  transform: scale(1.8);
+  transition: ease-in-out 0.5s;
+  position: relative;
+  z-index: 2;
+  display: block;
+  align-items: center;
 }
