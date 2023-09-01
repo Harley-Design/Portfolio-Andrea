@@ -169,8 +169,8 @@ a:hover {
 
 .portrait img:hover {
   filter: none;
-  transition: filter 0.5s;
   transform: scale(1.8);
+  transition: ease-in-out 0.5s;
 }
 
 .gallery img:hover {
