@@ -121,6 +121,8 @@ a:hover {
   -moz-column-gap: 5px;
   column-count: 5;
   column-gap: 5px;
+  padding-left: calc(8%);
+  padding-right: calc(8%);
 }
 
 .gallery img {
